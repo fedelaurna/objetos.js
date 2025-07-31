@@ -1,0 +1,76 @@
+
+/* Creación de objeto con {} y separando elementos por coma
+let estudiante = {
+    //clave: valor
+    nombre: 'Bauti',
+    apellido: 'Bader',
+    DNI: 48910662,
+    direccion: 'Calle falsa 123',
+    fechaNacimiento: '15 de Agosto de 2008'
+}
+*/
+let estudiantes = [
+    {
+        nombre: 'Jazmin',
+        apellido: 'Rodriguez',
+        edad: 16
+    },
+    {
+        nombre: 'Bauti',
+        apellido: 'Bader',
+        edad: 16
+    },
+    {
+        nombre: 'Mia',
+        apellido: 'Cardenas',
+        edad: 16
+    },
+    {
+        nombre: 'Victoria',
+        apellido: 'Flores',
+        edad: 16
+    },
+    {
+        nombre: 'Agustin',
+        apellido: 'Kramer',
+        edad: 16
+    },
+    {
+        nombre: 'Nahuel',
+        apellido: 'Diaz',
+        edad: 16
+    },
+    {
+        nombre: 'Matias',
+        apellido: 'Rosello',
+        edad: 16
+    }
+]
+
+
+for (let indice = 0; indice < estudiantes.length; indice++) {
+    //Mostrar todos los elementos del arreglo
+    console.log(estudiantes[indice].apellido + ' ' + estudiantes[indice].nombre)
+}
+
+/* Arreglo de objetos */
+let jugadoresCity = [
+    {
+        nombre: 'Federico',
+        apellido: 'Laurnagaray',
+        numero: '14',
+        nacionalidad: 'N/A'
+    },
+     {
+        nombre: 'Agustin',
+        apellido: 'Kramer',
+        numero: '4',
+        nacionalidad: 'Aleman'
+    },
+     {
+        nombre: 'Bauti',
+        apellido: 'Bader',
+        numero: '8',
+        nacionalidad: 'Argentino'
+    }
+] 
